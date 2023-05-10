@@ -1,4 +1,4 @@
-  .data
+  .data 
 usage_stmt: .asciiz "\n Usage: spim-f fnums.s <int>\n"
   .text
   .globl main   
