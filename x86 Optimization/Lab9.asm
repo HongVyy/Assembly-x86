@@ -1,13 +1,3 @@
-;; $ gcc -D OPTIMIZE -o Lab12_opt Lab12.c
-;; $ time ./Lab12_opt 2 40
-;; ---> Optimization is set on.
-;; 2^40 is 1099511627776
-;; 1099511627776 log 2 is 40
-
-;; real	0m0.003s
-;; user	0m0.003s
-;; sys	0m0.000s
-
 section .rodata
 	prompt1    db "Please enter a number: ",0   ; 0 is null character
 	prompt2    db "Enter another number: ",0
