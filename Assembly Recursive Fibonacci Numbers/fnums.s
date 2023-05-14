@@ -1,5 +1,15 @@
+# int main() {
+# printf("The 7th Fibonacci number is %d\n", fib(7));
+# }
+# int fib(int n) {
+# if (n == 1 || n == 2)
+# return 1;
+# return fib(n-1) + fib(n-2);
+# }
+
   .data 
 usage_stmt: .asciiz "\n Usage: spim-f fnums.s <int>\n"
+
   .text
   .globl main   
   .ent main      
