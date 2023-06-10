@@ -1,5 +1,5 @@
 .data
-my_array: .space 300        # allocate 20 bytes to hold 5 4-byte integers ..
+my_array: .space 300        # allocate 20 bytes to hold 5 4-byte integers .
 newline:  .asciiz   "\n\t"
 onespace: .asciiz   " "
 .text
